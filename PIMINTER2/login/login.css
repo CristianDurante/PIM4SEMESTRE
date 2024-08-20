@@ -2,127 +2,125 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background: #cfd4be;
-}
-
-.container {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background: #ebf0d8;
-    border-radius: 10px;
-    padding: 30px 40px;
-}
-
-.titulo h1{
-    flex-wrap: nowrap;
-    flex-direction: column;
-    display: flex;
-    font-weight: bold;
-    margin-top: 17vh;
-    padding: 15px;
-    text-align: center;
-    font-size: 45px;
-    color: #5d5f59;
-}
-
-h2{
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    color: #6f7763;
-}
-
-.input-container {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 5px 0;
-}
-
-.input-container input{
-    width: 100%;
-    height: 100%;
-    border: none;
-    outline: none;
-    border: 1px solid #888b81;
-    border-radius: 5px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-.input-container a {
-    color: rgb(69, 110, 187);
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 5px;
     text-decoration: none;
 }
 
-.input-container a:hover{
-    text-decoration: underline;
+body{
+    font-size: 100%;
+    background-color: #cfd4be;
 }
 
-.botao {
-    width: 30%;
-    height: 40px;
-    background-color: #888b81;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    margin-top: 40px;
-    font-weight: 700;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 45%;
+}
+
+.fu-esquerdo{
+    color: #555a4b;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf0d8;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+.cabecalho-botao{
+    color: #555a4b;
+    font-weight: 600;
+    padding-top: 4%;
+    text-align: center;
+    background-color: #ebf0d8;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(186, 185, 185);
+    border-radius: 20px;
     cursor: pointer;
-    outline: none;
-    font-size: 20px;
 }
 
-.botao:hover {
-    background-color: #5d5f59;
+.cabecalho-botao:hover{
+    background-color: #c2c5ba;
 }
 
-.text-label{
-    font-weight: bold;
-    margin-top: 30px;
-    color: #6f7763;
-    font-size: 20px;
-}
-
-.planta {
-    padding: 23px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-
-.sacola {
-    margin-top: 15px;
-    padding-left: 5px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-
-.imagem1 {
-    margin-top: 55vh;
+.imagem-admin{
     display: flex;
-    justify-items: center;
-    position: fixed;
-    width: 100%;
+    flex-direction: column;
 }
 
-.imagem2 {
-    justify-content: end;
-    margin-top: 55vh;
+.nome-admin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: #555a4b;
+}
+
+.conteudo{
+    border-top: 2px solid #555a4b;
+}
+
+.conteudo-principal{
     display: flex;
-    position: fixed;
-    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: end;
 }
 
+.lupa-pesquisa{
+    width: 30px;
+    height: 30px;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: row;
+}
+
+input{
+    margin-right: 7%;
+    font-size: 20px;
+    padding-left: 40px;
+    width: 94vw;
+    height: 45px;
+    border-radius: 15px;
+    border: 0.6px solid #80837b;
+    background-color: #fff;
+    outline: 0;
+}
+
+.lupa-pesquisa{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 7px;
+    position: absolute;
+}
+
+.conteudo-subtitulo{
+    color: #555a4b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 28vh;
+    text-align: justify;
+}
+
+.rodape{
+    padding: 5px;
+}
+
+.rodape-imagem{
+    height: 100px;
+    padding-left: 30px;
+}
