@@ -93,36 +93,21 @@ h2{
     font-size: 20px;
 }
 
-.planta {
-    padding: 23px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
 
-.sacola {
-    margin-top: 15px;
-    padding-left: 5px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-
-.imagem1 {
-    margin-top: 55vh;
+.imagem{
+    margin-top: 60vh;
     display: flex;
-    justify-items: center;
-    position: fixed;
-    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.imagem2 {
-    justify-content: end;
-    margin-top: 55vh;
-    display: flex;
-    position: fixed;
-    width: 100%;
+.planta{
+    margin-left: 20px;
+    width: 95px;
+
 }
 
+.sacola{
+    width: 150px
+}
