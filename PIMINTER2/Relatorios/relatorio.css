@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfd4be;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.cabecalho-menu{
+    gap: 20px;
+    color: #747373;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-voltar, .cabecalho-botao, .cabecalho-botao{
+    cursor: pointer;
+}
+
+
+.icone-voltar{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #d5d5d5;
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(130, 130, 130);
+}
+
+.imagem-icones{
+    height: 60px;
+    width: 60px;
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.conteudo-alinhar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    gap: 8px;
+}
+
+p, label{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747373;
+    margin-bottom: 10px;
+}
+
+.caixa-input{
+    background-color: #ebf0d8;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+    gap: 10px;
+    scroll-snap-type: y mandatory;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color:  rgb(225, 222, 222);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(165, 165, 164);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(106, 107, 108);
+}
+
+input{
+    padding: 8px;
+    border: 1px solid rgb(212, 212, 212);
+    height: 35px;
+    width: 20rem;
+
+}
+
+.conteudo-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teste{
+    height: 50px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button{
+    color: white;
+    background-color: #747373;
+    font-weight: 700;
+    font-size: 20px;
+    height: 60px;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #222222;
+}

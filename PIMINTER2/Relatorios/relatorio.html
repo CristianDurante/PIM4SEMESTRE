@@ -3,34 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatorio</title>
+    <title>Relatorios</title>
+    <link rel="stylesheet" href="relatorio.css">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <img src="voltar.png" alt="botao-voltar">
-                <a>ADMIN</a>
-                <a>RELATORIOS</a>
+        <header class="cabecalho">
+            <nav class="cabecalho-menu">
+                <img class="icone-voltar" src="/Relatorios/voltar.png" alt="">
+                <a class="cabecalho-botao">ADMIN</a>
+                <p>|</p>
+                <a class="cabecalho-botao">RELATORIOS</a>
             </nav>
-        </div>
-    </header>
+        </header>
 
-    <main>
-        <div>
-            <div>
-                <img src="carrinho.png" alt="carrinho-produtos">
-                <div>
-                    <label for="text">Produtos vendidos</label>
-                    <input type="text">
+
+            <div class="conteudo-principal">
+                <div class="conteudo-separado">
+                    <div class="conteudo-cabecalho">
+                        <img class="imagem-icones" src="carrinho.png" alt="carrinho-produtos">
+                        <p>Produtos</p>
+                    </div>
+                    <div class="conteudo-input">
+                        <div class="conteudo-alinhar">
+                            <label for="text">Produtos vendidos</label>
+                            <div class="caixa-input">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <div class="conteudo-texto">
+                                    <label for="text">VALOR RECEBIDO:</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="conteudo-separado">
+                    <div class="conteudo-cabecalho">
+                        <img class="imagem-icones" src="icone.png" alt="carrinho-produtos">
+                        <p>Funcionarios</p>
+                    </div>
+                    <div class="conteudo-input">
+                        <div class="conteudo-alinhar">
+                            <label class="textotopo" for="text">Gastos com Funcionarios</label>
+                            <div class="caixa-input">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <div class="conteudo-texto">
+                                    <label for="text">VALOR A PAGAR:</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                <div class="conteudo-separado">
+                    <div class="conteudo-cabecalho">
+                        <img class="imagem-icones" src="icone.png" alt="carrinho-produtos">
+                        <p>Clientes</p>
+                    </div>
+                    <div class="conteudo-input">
+                        <div class="conteudo-alinhar">
+                            <label for="text">Clientes / Gasto mensal:</label>
+                            <div class="caixa-input">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <input type="text" value="Dados aqui dentro">
+                                <div class="conteudo-texto">
+                                    <label for="text">VALOR RECEBIDO:</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
 
-    <footer>
-        <button type="button">GERAR PDF</button>
-    </footer>
-    
+            <div class="botao">
+                <button type="button">GERAR PDF</button>
+            </div>
+            
 </body>
 </html>
