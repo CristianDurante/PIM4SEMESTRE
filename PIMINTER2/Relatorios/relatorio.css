@@ -86,10 +86,8 @@ p, label{
     padding: 25px;
     border-radius: 10px;
     gap: 10px;
-    scroll-snap-type: y mandatory;
-    overflow: hidden;
-    overflow-y: scroll;
     max-height: 500px;
+    text-align: center;
 }
 
 ::-webkit-scrollbar{
@@ -119,6 +117,7 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .teste{
@@ -145,4 +144,16 @@ button{
 
 button:hover{
     background-color: #222222;
+}
+
+.caixa-input-produtos{
+    text-align: center;
+    background-color: #ebf0d8;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    scroll-snap-type: y mandatory;
+    overflow: hidden;
+    overflow-y: scroll;
 }
