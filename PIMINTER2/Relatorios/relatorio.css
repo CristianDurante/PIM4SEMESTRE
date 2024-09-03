@@ -26,9 +26,14 @@ body{
     align-items: center;
 }
 
-.icone-voltar, .cabecalho-botao, .cabecalho-botao{
+.icone-voltar, .cabecalho-botao{
     cursor: pointer;
 }
+
+.cabecalho-botao:hover{
+    color: rgb(255, 255, 255);
+}
+
 
 
 .icone-voltar{
