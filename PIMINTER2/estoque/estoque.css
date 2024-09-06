@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfd4be;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.cabecalho-menu{
+    gap: 20px;
+    color: #747373;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.icone-voltar, .cabecalho-botao{
+    cursor: pointer;
+}
+
+.cabecalho-botao:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.icone-voltar{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #d5d5d5;
+    width: 40px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(130, 130, 130);
+}
