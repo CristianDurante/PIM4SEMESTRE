@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cadastro Cliente vendas</title>
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <nav class="cabecalho-menu">
+            <img class="icone-voltar" src="/PIM4SEMESTRE/PIMINTER2/Relatorios/voltar.png" alt="">
+            <a>INICIO</a>
+            <p>|</p>
+            <a>VENDAS</a>
+        </nav>
+        <nav>
+            <p>VALOR TOTAL DA COMPRA</p>
+            <p>R$: *******</p>
+            <img src="carrinho-de-compras.png" alt="carrinho de compras">
+        </nav>
+    </header>
+
+    <main>
+        <h1>CADASTRO DO CLIENTE</h1>
+        <form>
+            <label for="text">Informe o seu Nome Completo:</label>
+            <input type="text" placeholder="Digite seu nome.." required>
+            <label for="text">Informe o seu CNPJ:</label>
+            <input type="text" placeholder="Digite seu CNPJ.." required>
+            <label for="text">Informe o Numero do cartão:</label>
+            <input type="text" placeholder="Digite o numero do cartão.." required>
+            <label for="text">Nome do titular do cartão:</label>
+            <input type="text" placeholder="Digite o nome do titular.." required>
+            <p>Novo cartão</p>
+            <button type="button" class="btn btn-secondary">Avançar</button>
+            <div>
+                <label for="text">Codigo de segurança:</label>
+                <input type="text" placeholder="Codigo CVV.." required>
+                <label for="text">Validade do cartão</label>
+                <input type="text" placeholder="MM/AA" readonly>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <a href="#">Gostaria de ajuda?</a>
+        <p>Contato xx-xxxx-xxxx</p>
+    </footer>
+
+</body>
+</html>
