@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cfd4be;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.cabecalho-esquerda{
+    gap: 20px;
+    color: #747373;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.icone-voltar{
+    padding: 5px;
+    cursor: pointer;
+    background-color: #d5d5d5;
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(130, 130, 130);
+}
+
+.icone-voltar, a{
+    cursor: pointer;
+}
+
+.cabecalho-direita{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.total-compra, .valor-compra{
+    text-align: center;
+}
+
+.total-compra{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747373;
+}
+
+.valor-compra{
+    background-color: white;
+    border-radius: 15px;
+    height: 45px;
+    width: 100%;
+    padding: 7px;
+    font-size: 20px;
+    border: 1px, solid, #c2c1c1;
+    justify-items: center;
+}
+
+.input-carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrinho-compras{
+    background-color: aliceblue;
+    height: 80px;
+    padding: 20px;
+    border-radius: 30%;
+    border: 1px solid #c2c1c1;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebf0d8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 65vh;
+    width: 65vw;
+    border-radius: 15px;
+    border: 1px solid #acabab;
+}
+
+h1{
+    text-align: center;
+}
+
+.conteudo-form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.texto-form{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-input{
+    height: 35px;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 149, 149);
+    outline: none;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.conteudo-form2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 65%;
+    top: 40%;
+}
+
+.texto-input2{
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 149, 149);
+    outline: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
