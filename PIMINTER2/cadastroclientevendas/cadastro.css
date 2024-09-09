@@ -94,6 +94,7 @@ body{
     width: 65vw;
     border-radius: 15px;
     border: 1px solid #acabab;
+    position: fixed; 
 }
 
 h1{
